@@ -23,7 +23,7 @@
 + (UIBezierPath *)customBezierPathOfArrowSymbolWithRect:(CGRect)rect  // arrow
                                                   scale:(CGFloat)scale
                                                   thick:(CGFloat)thick
-                                              direction:(UISwipeGestureRecognizerDirection)direction;
+                                              direction:(KYDirection)direction;
 + (UIBezierPath *)customBezierPathOfPencilSymbolWithRect:(CGRect)rect // pencil
                                                    scale:(CGFloat)scale
                                                    thick:(CGFloat)thick;

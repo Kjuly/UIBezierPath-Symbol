@@ -192,7 +192,7 @@
 + (UIBezierPath *)customBezierPathOfArrowSymbolWithRect:(CGRect)rect
                                                   scale:(CGFloat)scale
                                                   thick:(CGFloat)thick
-                                              direction:(UISwipeGestureRecognizerDirection)direction {
+                                              direction:(KYDirection)direction {
   CGFloat height     = CGRectGetHeight(rect) * scale;
   CGFloat width      = CGRectGetWidth(rect)  * scale;
   CGFloat halfHeight = height / 2.f;
