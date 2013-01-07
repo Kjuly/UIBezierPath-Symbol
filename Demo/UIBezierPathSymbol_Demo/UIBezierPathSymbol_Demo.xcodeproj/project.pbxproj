@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FAF8936169AC51B00563679 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAF8935169AC51B00563679 /* UIKit.framework */; };
+		7FAF8938169AC51B00563679 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAF8937169AC51B00563679 /* Foundation.framework */; };
+		7FAF893A169AC51B00563679 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAF8939169AC51B00563679 /* CoreGraphics.framework */; };
+		7FAF8940169AC51B00563679 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF893E169AC51B00563679 /* InfoPlist.strings */; };
+		7FAF8942169AC51B00563679 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF8941169AC51B00563679 /* main.m */; };
+		7FAF8946169AC51B00563679 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF8945169AC51B00563679 /* AppDelegate.m */; };
+		7FAF8965169AC60100563679 /* Default-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF8953169AC60100563679 /* Default-568h.png */; };
+		7FAF8966169AC60100563679 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF8954169AC60100563679 /* Default-568h@2x.png */; };
+		7FAF8967169AC60100563679 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF8955169AC60100563679 /* Default-Landscape@2x~ipad.png */; };
+		7FAF8968169AC60100563679 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF8956169AC60100563679 /* Default-Landscape~ipad.png */; };
+		7FAF8969169AC60100563679 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF8957169AC60100563679 /* Default-Portrait@2x~ipad.png */; };
+		7FAF896A169AC60100563679 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF8958169AC60100563679 /* Default-Portrait~ipad.png */; };
+		7FAF896B169AC60100563679 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF8959169AC60100563679 /* Default.png */; };
+		7FAF896C169AC60100563679 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF895A169AC60100563679 /* Default@2x.png */; };
+		7FAF896D169AC60100563679 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF895B169AC60100563679 /* Icon-72.png */; };
+		7FAF896E169AC60100563679 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF895C169AC60100563679 /* Icon-72@2x.png */; };
+		7FAF896F169AC60100563679 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF895D169AC60100563679 /* Icon-Small-50.png */; };
+		7FAF8970169AC60100563679 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF895E169AC60100563679 /* Icon-Small-50@2x.png */; };
+		7FAF8971169AC60100563679 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF895F169AC60100563679 /* Icon-Small.png */; };
+		7FAF8972169AC60100563679 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF8960169AC60100563679 /* Icon-Small@2x.png */; };
+		7FAF8973169AC60100563679 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF8961169AC60100563679 /* Icon.png */; };
+		7FAF8974169AC60100563679 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF8962169AC60100563679 /* Icon@2x.png */; };
+		7FAF8975169AC60100563679 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF8963169AC60100563679 /* iTunesArtwork */; };
+		7FAF8976169AC60100563679 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 7FAF8964169AC60100563679 /* iTunesArtwork@2x */; };
+		7FAF897E169AC6B200563679 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF897D169AC6B200563679 /* RootViewController.m */; };
+		7FAF8981169AC6CE00563679 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF8980169AC6CE00563679 /* Constants.m */; };
+		7FAF8989169AC79F00563679 /* UIBezierPath+Symbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF8988169AC79F00563679 /* UIBezierPath+Symbol.m */; };
+		7FAF89AB169AC8BD00563679 /* KYArrowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF898C169AC8BD00563679 /* KYArrowButton.m */; };
+		7FAF89AC169AC8BD00563679 /* KYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF898E169AC8BD00563679 /* KYButton.m */; };
+		7FAF89AD169AC8BD00563679 /* KYCancelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF8990169AC8BD00563679 /* KYCancelButton.m */; };
+		7FAF89AE169AC8BD00563679 /* KYConfirmButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF8992169AC8BD00563679 /* KYConfirmButton.m */; };
+		7FAF89AF169AC8BD00563679 /* KYDeleteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF8994169AC8BD00563679 /* KYDeleteButton.m */; };
+		7FAF89B1169AC8BD00563679 /* KYEditButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF8998169AC8BD00563679 /* KYEditButton.m */; };
+		7FAF89B5169AC8BD00563679 /* KYPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF89A0169AC8BD00563679 /* KYPlusButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FAF8932169AC51B00563679 /* UIBezierPathSymbol_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBezierPathSymbol_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAF8935169AC51B00563679 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FAF8937169AC51B00563679 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FAF8939169AC51B00563679 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FAF893D169AC51B00563679 /* UIBezierPathSymbol_Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIBezierPathSymbol_Demo-Info.plist"; sourceTree = "<group>"; };
+		7FAF893F169AC51B00563679 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FAF8941169AC51B00563679 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FAF8943169AC51B00563679 /* UIBezierPathSymbol_Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBezierPathSymbol_Demo-Prefix.pch"; sourceTree = "<group>"; };
+		7FAF8944169AC51B00563679 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FAF8945169AC51B00563679 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FAF8953169AC60100563679 /* Default-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h.png"; sourceTree = "<group>"; };
+		7FAF8954169AC60100563679 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7FAF8955169AC60100563679 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		7FAF8956169AC60100563679 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		7FAF8957169AC60100563679 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		7FAF8958169AC60100563679 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		7FAF8959169AC60100563679 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7FAF895A169AC60100563679 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7FAF895B169AC60100563679 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		7FAF895C169AC60100563679 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		7FAF895D169AC60100563679 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		7FAF895E169AC60100563679 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		7FAF895F169AC60100563679 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		7FAF8960169AC60100563679 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		7FAF8961169AC60100563679 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7FAF8962169AC60100563679 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		7FAF8963169AC60100563679 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		7FAF8964169AC60100563679 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		7FAF897C169AC6B200563679 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7FAF897D169AC6B200563679 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7FAF897F169AC6CE00563679 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7FAF8980169AC6CE00563679 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		7FAF8987169AC79F00563679 /* UIBezierPath+Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Symbol.h"; sourceTree = "<group>"; };
+		7FAF8988169AC79F00563679 /* UIBezierPath+Symbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Symbol.m"; sourceTree = "<group>"; };
+		7FAF898B169AC8BD00563679 /* KYArrowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYArrowButton.h; sourceTree = "<group>"; };
+		7FAF898C169AC8BD00563679 /* KYArrowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYArrowButton.m; sourceTree = "<group>"; };
+		7FAF898D169AC8BD00563679 /* KYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYButton.h; sourceTree = "<group>"; };
+		7FAF898E169AC8BD00563679 /* KYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYButton.m; sourceTree = "<group>"; };
+		7FAF898F169AC8BD00563679 /* KYCancelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYCancelButton.h; sourceTree = "<group>"; };
+		7FAF8990169AC8BD00563679 /* KYCancelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYCancelButton.m; sourceTree = "<group>"; };
+		7FAF8991169AC8BD00563679 /* KYConfirmButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYConfirmButton.h; sourceTree = "<group>"; };
+		7FAF8992169AC8BD00563679 /* KYConfirmButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYConfirmButton.m; sourceTree = "<group>"; };
+		7FAF8993169AC8BD00563679 /* KYDeleteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYDeleteButton.h; sourceTree = "<group>"; };
+		7FAF8994169AC8BD00563679 /* KYDeleteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYDeleteButton.m; sourceTree = "<group>"; };
+		7FAF8997169AC8BD00563679 /* KYEditButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYEditButton.h; sourceTree = "<group>"; };
+		7FAF8998169AC8BD00563679 /* KYEditButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYEditButton.m; sourceTree = "<group>"; };
+		7FAF899F169AC8BD00563679 /* KYPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPlusButton.h; sourceTree = "<group>"; };
+		7FAF89A0169AC8BD00563679 /* KYPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPlusButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FAF892F169AC51B00563679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAF8936169AC51B00563679 /* UIKit.framework in Frameworks */,
+				7FAF8938169AC51B00563679 /* Foundation.framework in Frameworks */,
+				7FAF893A169AC51B00563679 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FAF8929169AC51B00563679 = {
+			isa = PBXGroup;
+			children = (
+				7FAF8986169AC79F00563679 /* UIBezierPath-Symbol */,
+				7FAF893B169AC51B00563679 /* UIBezierPathSymbol_Demo */,
+				7FAF8934169AC51B00563679 /* Frameworks */,
+				7FAF8933169AC51B00563679 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FAF8933169AC51B00563679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FAF8932169AC51B00563679 /* UIBezierPathSymbol_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FAF8934169AC51B00563679 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FAF8935169AC51B00563679 /* UIKit.framework */,
+				7FAF8937169AC51B00563679 /* Foundation.framework */,
+				7FAF8939169AC51B00563679 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FAF893B169AC51B00563679 /* UIBezierPathSymbol_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7FAF8944169AC51B00563679 /* AppDelegate.h */,
+				7FAF8945169AC51B00563679 /* AppDelegate.m */,
+				7FAF897F169AC6CE00563679 /* Constants.h */,
+				7FAF8980169AC6CE00563679 /* Constants.m */,
+				7FAF898A169AC8BD00563679 /* Views */,
+				7FAF8977169AC60500563679 /* Controllers */,
+				7FAF8952169AC60100563679 /* Resources */,
+				7FAF893C169AC51B00563679 /* Supporting Files */,
+			);
+			path = UIBezierPathSymbol_Demo;
+			sourceTree = "<group>";
+		};
+		7FAF893C169AC51B00563679 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FAF893D169AC51B00563679 /* UIBezierPathSymbol_Demo-Info.plist */,
+				7FAF893E169AC51B00563679 /* InfoPlist.strings */,
+				7FAF8941169AC51B00563679 /* main.m */,
+				7FAF8943169AC51B00563679 /* UIBezierPathSymbol_Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FAF8952169AC60100563679 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7FAF8953169AC60100563679 /* Default-568h.png */,
+				7FAF8954169AC60100563679 /* Default-568h@2x.png */,
+				7FAF8955169AC60100563679 /* Default-Landscape@2x~ipad.png */,
+				7FAF8956169AC60100563679 /* Default-Landscape~ipad.png */,
+				7FAF8957169AC60100563679 /* Default-Portrait@2x~ipad.png */,
+				7FAF8958169AC60100563679 /* Default-Portrait~ipad.png */,
+				7FAF8959169AC60100563679 /* Default.png */,
+				7FAF895A169AC60100563679 /* Default@2x.png */,
+				7FAF895B169AC60100563679 /* Icon-72.png */,
+				7FAF895C169AC60100563679 /* Icon-72@2x.png */,
+				7FAF895D169AC60100563679 /* Icon-Small-50.png */,
+				7FAF895E169AC60100563679 /* Icon-Small-50@2x.png */,
+				7FAF895F169AC60100563679 /* Icon-Small.png */,
+				7FAF8960169AC60100563679 /* Icon-Small@2x.png */,
+				7FAF8961169AC60100563679 /* Icon.png */,
+				7FAF8962169AC60100563679 /* Icon@2x.png */,
+				7FAF8963169AC60100563679 /* iTunesArtwork */,
+				7FAF8964169AC60100563679 /* iTunesArtwork@2x */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7FAF8977169AC60500563679 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FAF897C169AC6B200563679 /* RootViewController.h */,
+				7FAF897D169AC6B200563679 /* RootViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7FAF8986169AC79F00563679 /* UIBezierPath-Symbol */ = {
+			isa = PBXGroup;
+			children = (
+				7FAF8987169AC79F00563679 /* UIBezierPath+Symbol.h */,
+				7FAF8988169AC79F00563679 /* UIBezierPath+Symbol.m */,
+			);
+			name = "UIBezierPath-Symbol";
+			path = "../../UIBezierPath-Symbol";
+			sourceTree = "<group>";
+		};
+		7FAF898A169AC8BD00563679 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FAF898D169AC8BD00563679 /* KYButton.h */,
+				7FAF898E169AC8BD00563679 /* KYButton.m */,
+				7FAF899F169AC8BD00563679 /* KYPlusButton.h */,
+				7FAF89A0169AC8BD00563679 /* KYPlusButton.m */,
+				7FAF898B169AC8BD00563679 /* KYArrowButton.h */,
+				7FAF898C169AC8BD00563679 /* KYArrowButton.m */,
+				7FAF898F169AC8BD00563679 /* KYCancelButton.h */,
+				7FAF8990169AC8BD00563679 /* KYCancelButton.m */,
+				7FAF8991169AC8BD00563679 /* KYConfirmButton.h */,
+				7FAF8992169AC8BD00563679 /* KYConfirmButton.m */,
+				7FAF8993169AC8BD00563679 /* KYDeleteButton.h */,
+				7FAF8994169AC8BD00563679 /* KYDeleteButton.m */,
+				7FAF8997169AC8BD00563679 /* KYEditButton.h */,
+				7FAF8998169AC8BD00563679 /* KYEditButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FAF8931169AC51B00563679 /* UIBezierPathSymbol_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAF894F169AC51B00563679 /* Build configuration list for PBXNativeTarget "UIBezierPathSymbol_Demo" */;
+			buildPhases = (
+				7FAF892E169AC51B00563679 /* Sources */,
+				7FAF892F169AC51B00563679 /* Frameworks */,
+				7FAF8930169AC51B00563679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIBezierPathSymbol_Demo;
+			productName = UIBezierPathSymbol_Demo;
+			productReference = 7FAF8932169AC51B00563679 /* UIBezierPathSymbol_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FAF892A169AC51B00563679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Kjuly;
+			};
+			buildConfigurationList = 7FAF892D169AC51B00563679 /* Build configuration list for PBXProject "UIBezierPathSymbol_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FAF8929169AC51B00563679;
+			productRefGroup = 7FAF8933169AC51B00563679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FAF8931169AC51B00563679 /* UIBezierPathSymbol_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FAF8930169AC51B00563679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAF8940169AC51B00563679 /* InfoPlist.strings in Resources */,
+				7FAF8965169AC60100563679 /* Default-568h.png in Resources */,
+				7FAF8966169AC60100563679 /* Default-568h@2x.png in Resources */,
+				7FAF8967169AC60100563679 /* Default-Landscape@2x~ipad.png in Resources */,
+				7FAF8968169AC60100563679 /* Default-Landscape~ipad.png in Resources */,
+				7FAF8969169AC60100563679 /* Default-Portrait@2x~ipad.png in Resources */,
+				7FAF896A169AC60100563679 /* Default-Portrait~ipad.png in Resources */,
+				7FAF896B169AC60100563679 /* Default.png in Resources */,
+				7FAF896C169AC60100563679 /* Default@2x.png in Resources */,
+				7FAF896D169AC60100563679 /* Icon-72.png in Resources */,
+				7FAF896E169AC60100563679 /* Icon-72@2x.png in Resources */,
+				7FAF896F169AC60100563679 /* Icon-Small-50.png in Resources */,
+				7FAF8970169AC60100563679 /* Icon-Small-50@2x.png in Resources */,
+				7FAF8971169AC60100563679 /* Icon-Small.png in Resources */,
+				7FAF8972169AC60100563679 /* Icon-Small@2x.png in Resources */,
+				7FAF8973169AC60100563679 /* Icon.png in Resources */,
+				7FAF8974169AC60100563679 /* Icon@2x.png in Resources */,
+				7FAF8975169AC60100563679 /* iTunesArtwork in Resources */,
+				7FAF8976169AC60100563679 /* iTunesArtwork@2x in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FAF892E169AC51B00563679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAF8942169AC51B00563679 /* main.m in Sources */,
+				7FAF8946169AC51B00563679 /* AppDelegate.m in Sources */,
+				7FAF897E169AC6B200563679 /* RootViewController.m in Sources */,
+				7FAF8981169AC6CE00563679 /* Constants.m in Sources */,
+				7FAF8989169AC79F00563679 /* UIBezierPath+Symbol.m in Sources */,
+				7FAF89AB169AC8BD00563679 /* KYArrowButton.m in Sources */,
+				7FAF89AC169AC8BD00563679 /* KYButton.m in Sources */,
+				7FAF89AD169AC8BD00563679 /* KYCancelButton.m in Sources */,
+				7FAF89AE169AC8BD00563679 /* KYConfirmButton.m in Sources */,
+				7FAF89AF169AC8BD00563679 /* KYDeleteButton.m in Sources */,
+				7FAF89B1169AC8BD00563679 /* KYEditButton.m in Sources */,
+				7FAF89B5169AC8BD00563679 /* KYPlusButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FAF893E169AC51B00563679 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAF893F169AC51B00563679 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FAF894D169AC51B00563679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FAF894E169AC51B00563679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FAF8950169AC51B00563679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIBezierPathSymbol_Demo/UIBezierPathSymbol_Demo-Prefix.pch";
+				INFOPLIST_FILE = "UIBezierPathSymbol_Demo/UIBezierPathSymbol_Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FAF8951169AC51B00563679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIBezierPathSymbol_Demo/UIBezierPathSymbol_Demo-Prefix.pch";
+				INFOPLIST_FILE = "UIBezierPathSymbol_Demo/UIBezierPathSymbol_Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FAF892D169AC51B00563679 /* Build configuration list for PBXProject "UIBezierPathSymbol_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAF894D169AC51B00563679 /* Debug */,
+				7FAF894E169AC51B00563679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAF894F169AC51B00563679 /* Build configuration list for PBXNativeTarget "UIBezierPathSymbol_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAF8950169AC51B00563679 /* Debug */,
+				7FAF8951169AC51B00563679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FAF892A169AC51B00563679 /* Project object */;
+}
