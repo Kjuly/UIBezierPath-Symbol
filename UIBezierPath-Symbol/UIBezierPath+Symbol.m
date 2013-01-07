@@ -203,7 +203,7 @@
                 CGRectGetMinY(rect) + (CGRectGetHeight(rect) - height) / 2.f);
   
   UIBezierPath * path = [self bezierPath];
-  if (direction == UISwipeGestureRecognizerDirectionLeft || direction == UISwipeGestureRecognizerDirectionRight) {
+  if (direction == kKYDirectionLeft || direction == kKYDirectionRight) {
     if (direction == UISwipeGestureRecognizerDirectionLeft) {
       [path moveToPoint:CGPointWithOffset(CGPointMake(0.f, halfHeight), offsetPoint)];          // a
       [path addLineToPoint:CGPointWithOffset(CGPointMake(width - thick, 0.f), offsetPoint)];    // b
@@ -222,7 +222,7 @@
     }
   }
   else {
-    if (direction == UISwipeGestureRecognizerDirectionUp) {
+    if (direction == kKYDirectionUp) {
       [path moveToPoint:CGPointWithOffset(CGPointMake(halfWidth, 0.f), offsetPoint)];           // a
       [path addLineToPoint:CGPointWithOffset(CGPointMake(width, height - thick), offsetPoint)]; // b
       [path addLineToPoint:CGPointWithOffset(CGPointMake(width, height), offsetPoint)];         // c
