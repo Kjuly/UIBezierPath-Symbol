@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+// Direction
+typedef enum {
+  kKYDirectionNone  = 0,
+  kKYDirectionRight = 1 << 0,
+  kKYDirectionLeft  = 1 << 1,
+  kKYDirectionUp    = 1 << 2,
+  kKYDirectionDown  = 1 << 3
+}KYDirection;
+
 @interface UIBezierPath (Symbol)
 
 + (UIBezierPath *)customBezierPathOfPlusSymbolWithRect:(CGRect)rect   // plus
