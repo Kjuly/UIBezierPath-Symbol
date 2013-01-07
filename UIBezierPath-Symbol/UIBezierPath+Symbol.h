@@ -10,12 +10,12 @@
 
 // Direction
 typedef enum {
-  kKYDirectionNone  = 0,
-  kKYDirectionRight = 1 << 0,
-  kKYDirectionLeft  = 1 << 1,
-  kKYDirectionUp    = 1 << 2,
-  kKYDirectionDown  = 1 << 3
-}KYDirection;
+  kUIBezierPathArrowDirectionNone  = 0,
+  kUIBezierPathArrowDirectionRight = 1 << 0,
+  kUIBezierPathArrowDirectionLeft  = 1 << 1,
+  kUIBezierPathArrowDirectionUp    = 1 << 2,
+  kUIBezierPathArrowDirectionDown  = 1 << 3
+}UIBezierPathArrowDirection;
 
 @interface UIBezierPath (Symbol)
 
@@ -32,7 +32,7 @@ typedef enum {
 + (UIBezierPath *)customBezierPathOfArrowSymbolWithRect:(CGRect)rect  // arrow
                                                   scale:(CGFloat)scale
                                                   thick:(CGFloat)thick
-                                              direction:(KYDirection)direction;
+                                              direction:(UIBezierPathArrowDirection)direction;
 + (UIBezierPath *)customBezierPathOfPencilSymbolWithRect:(CGRect)rect // pencil
                                                    scale:(CGFloat)scale
                                                    thick:(CGFloat)thick;

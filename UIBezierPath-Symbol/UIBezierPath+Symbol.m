@@ -192,7 +192,7 @@
 + (UIBezierPath *)customBezierPathOfArrowSymbolWithRect:(CGRect)rect
                                                   scale:(CGFloat)scale
                                                   thick:(CGFloat)thick
-                                              direction:(KYDirection)direction {
+                                              direction:(UIBezierPathArrowDirection)direction {
   CGFloat height     = CGRectGetHeight(rect) * scale;
   CGFloat width      = CGRectGetWidth(rect)  * scale;
   CGFloat halfHeight = height / 2.f;
@@ -203,7 +203,7 @@
                 CGRectGetMinY(rect) + (CGRectGetHeight(rect) - height) / 2.f);
   
   UIBezierPath * path = [self bezierPath];
-  if (direction == kKYDirectionLeft || direction == kKYDirectionRight) {
+  if (direction == kUIBezierPathArrowDirectionLeft || direction == kUIBezierPathArrowDirectionRight) {
     if (direction == UISwipeGestureRecognizerDirectionLeft) {
       [path moveToPoint:CGPointWithOffset(CGPointMake(0.f, halfHeight), offsetPoint)];          // a
       [path addLineToPoint:CGPointWithOffset(CGPointMake(width - thick, 0.f), offsetPoint)];    // b
@@ -222,7 +222,7 @@
     }
   }
   else {
-    if (direction == kKYDirectionUp) {
+    if (direction == kUIBezierPathArrowDirectionUp) {
       [path moveToPoint:CGPointWithOffset(CGPointMake(halfWidth, 0.f), offsetPoint)];           // a
       [path addLineToPoint:CGPointWithOffset(CGPointMake(width, height - thick), offsetPoint)]; // b
       [path addLineToPoint:CGPointWithOffset(CGPointMake(width, height), offsetPoint)];         // c
