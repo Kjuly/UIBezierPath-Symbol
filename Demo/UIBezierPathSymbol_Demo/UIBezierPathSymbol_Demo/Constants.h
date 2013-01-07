@@ -19,15 +19,6 @@
 #define kKYButtonInSmallSize  32.f
 #define kKYButtonInNormalSize 64.f
 
-// Direction
-typedef enum {
-  kKYDirectionNone  = 0,
-  kKYDirectionRight = 1 << 0,
-  kKYDirectionLeft  = 1 << 1,
-  kKYDirectionUp    = 1 << 2,
-  kKYDirectionDown  = 1 << 3
-}KYDirection;
-
 @interface Constants : NSObject
 
 @end
