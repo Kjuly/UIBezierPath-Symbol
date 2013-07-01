@@ -89,7 +89,7 @@
   leftArrowButton.scale     = basicScale;
   leftArrowButton.thick     = basicThick * 2.f;
   leftArrowButton.color     = basicColor;
-  leftArrowButton.direction = kKYDirectionLeft;
+  leftArrowButton.direction = kUIBezierPathArrowDirectionLeft;
   [self.view addSubview:leftArrowButton];
   [leftArrowButton release];
   
@@ -99,7 +99,7 @@
   upArrowButton.scale     = basicScale;
   upArrowButton.thick     = basicThick * 2.f;
   upArrowButton.color     = basicColor;
-  upArrowButton.direction = kKYDirectionUp;
+  upArrowButton.direction = kUIBezierPathArrowDirectionUp;
   [self.view addSubview:upArrowButton];
   [upArrowButton release];
   
