@@ -10,6 +10,6 @@
 
 @interface KYArrowButton : KYButton
 
-@property (nonatomic, assign) KYDirection direction;
+@property (nonatomic, assign) UIBezierPathArrowDirection direction;
 
 @end

@@ -19,7 +19,7 @@
   [[UIBezierPath customBezierPathOfArrowSymbolWithRect:rect
                                                  scale:self.scale
                                                  thick:self.thick
-                                             direction:(KYDirection)self.direction] fill];
+                                             direction:self.direction] fill];
 }
 
 @end
